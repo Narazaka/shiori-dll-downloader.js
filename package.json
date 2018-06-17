@@ -1,7 +1,7 @@
 {
-  "name": "shiori-download",
+  "name": "shiori-dll-downloader",
   "version": "1.0.0",
-  "description": "download shiori.dll",
+  "description": "shiori.dll downloader",
   "main": "index.js",
   "types": "index.d.ts",
   "files": [
