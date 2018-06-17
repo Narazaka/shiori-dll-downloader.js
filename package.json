@@ -12,7 +12,7 @@
   "scripts": {
     "prepare": "npm run dist",
     "prepublishOnly": "npm test",
-    "dist": "shx rm \"./*.js\" \"./*.js.map\" \"./*.d.ts\" && tsc",
+    "dist": "shx rm -f \"./*.js\" \"./*.js.map\" \"./*.d.ts\" && tsc",
     "test": "mocha"
   },
   "author": "narazaka",
