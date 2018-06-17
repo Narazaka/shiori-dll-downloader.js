@@ -1,0 +1,33 @@
+{
+  "name": "shiori-dll-download",
+  "version": "1.0.0",
+  "description": "download shiori.dll",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "*.js",
+    "*.js.map",
+    "*.d.ts"
+  ],
+  "scripts": {
+    "dist": "shx rm \"./*.js\" \"./*.js.map\" \"./*.d.ts\" && tsc",
+    "test": "mocha"
+  },
+  "author": "narazaka",
+  "license": "Zlib",
+  "devDependencies": {
+    "@types/jszip": "^3.1.4",
+    "@types/mocha": "^5.2.2",
+    "@types/node-fetch": "^2.1.1",
+    "mocha": "^5.2.0",
+    "shx": "^0.3.0",
+    "ts-node": "^6.1.1",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "fso": "^2.6.3",
+    "jszip": "^3.1.5",
+    "node-fetch": "^2.1.2"
+  }
+}

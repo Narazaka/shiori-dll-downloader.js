@@ -1,0 +1,9 @@
+{
+    "extends": "tslint:recommended",
+    "rules": {
+        "typedef": false,
+        "curly": false,
+        "interface-name": false,
+        "no-namespace": false
+    }
+}
