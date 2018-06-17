@@ -1,5 +1,5 @@
 {
-  "name": "shiori-dll-download",
+  "name": "shiori-download",
   "version": "1.0.0",
   "description": "download shiori.dll",
   "main": "index.js",
@@ -10,6 +10,8 @@
     "*.d.ts"
   ],
   "scripts": {
+    "prepare": "npm run dist",
+    "prepublishOnly": "npm test",
     "dist": "shx rm \"./*.js\" \"./*.js.map\" \"./*.d.ts\" && tsc",
     "test": "mocha"
   },
