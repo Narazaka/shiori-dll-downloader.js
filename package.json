@@ -7,13 +7,12 @@
   "files": [
     "*.js",
     "*.js.map",
-    "*.d.ts",
-    "*VersionLinks.json"
+    "*.d.ts"
   ],
   "scripts": {
     "prepare": "npm run dist",
     "prepublishOnly": "npm test",
-    "dist": "shx rm -f \"./*.js\" \"./*.js.map\" \"./*.d.ts\" \"./*VersionLinks.json\" && tsc && shx cp lib/*.json .",
+    "dist": "shx rm -f \"./*.js\" \"./*.js.map\" \"./*.d.ts\" && tsc",
     "test": "mocha"
   },
   "author": "narazaka",

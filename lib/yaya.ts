@@ -1,8 +1,9 @@
-const versionLinks = require("./yayaVersionLinks.json"); // tslint:disable-line no-var-requires
 import * as util from "./util";
 
 export = function getVersion(version = "tc550-3"): util.Downloads {
-    const archiveUri = `https://drive.google.com/uc?export=download&id=${versionLinks[version]}`;
+    const versionl = version[0].toUpperCase() + version.slice(1);
+    const versions = version[0].toLowerCase() + version.slice(1);
+    const archiveUri = `https://github.com/ponapalt/yaya-shiori/releases/download/${versionl}/yaya-${versions}.zip`;
     const dllPath = "yaya.dll";
     const dllName = "yaya.dll";
     return {
