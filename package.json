@@ -19,7 +19,7 @@
   "license": "Zlib",
   "devDependencies": {
     "@types/jszip": "^3.1.5",
-    "@types/mocha": "^5.2.6",
+    "@types/mocha": "^5.2.7",
     "@types/node-fetch": "^2.1.6",
     "mocha": "^6.0.0",
     "shx": "^0.3.0",
